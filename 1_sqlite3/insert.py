@@ -15,7 +15,7 @@ if __name__ == "__main__":
     db = "test.db"
     table = "Cars"
     query = """
-            INSERT INTO %s VALUES(3, 'hhhhhhh', 34234);
+            INSERT INTO %s VALUES(3, 'string_text', 34234);
             """ %table
     print (create_table(db, query))
 

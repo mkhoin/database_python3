@@ -1,5 +1,6 @@
 #-*- coding:utf-8 -*-
 
+# Table info is included in "Query script"
 def create_table(db, query):
     try :
         import sqlite3 as lite
